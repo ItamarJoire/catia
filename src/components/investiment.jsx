@@ -87,11 +87,11 @@ export function Investiment(){
 
        
 
-        <div className="mt-24 text-center">
-          <p className="font-['Poppins'] text-4xl text-base-green-light font-semibold ">Quero fazer parte do Grupo Vip Mulheres em Superação</p>
+        <div className="mt-20 text-center">
+          <p className="font-['Poppins'] text-3xl text-base-green-light font-semibold ">Quero fazer parte do Grupo Vip Mulheres em Superação</p>
           
           <div>
-            <a href="https://chat.whatsapp.com/KsKSC0h68HJJ1DKBgnD0pm" target="_blank" className='mt-8 inline-flex items-center gap-2 font-["Poppins"] px-8 py-6 max-w-[340px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 md:mx-0 uppercase text-xl'>
+            <a href="https://chat.whatsapp.com/KsKSC0h68HJJ1DKBgnD0pm" target="_blank" className='mt-8 inline-flex items-center gap-3 font-["Poppins"] px-8 py-6 max-w-[340px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 md:mx-0 uppercase text-lg'>
 
             <img src={ImgWhats} alt="" />
             Entrar no grupo vip        

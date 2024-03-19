@@ -3,7 +3,7 @@ import { GridContainer, FaqContainer } from "../containers";
 
 export function Faq(){
   return(
-    <div className="mb-24">
+    <div className="my-24">
       <GridContainer>
         <div>
           <p className="text-sm uppercase font-medium text-gray-700">Perguntas frequentes</p>
