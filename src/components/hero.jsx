@@ -18,7 +18,7 @@ export function Hero(){
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium necessitatibus sapiente cum. Repellat id minima deserunt et similique 
               </h4>
             
-              <a href="#" className='font-["Poppins"] block px-8 py-5 max-w-[280px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 uppercase md:text-xl md:max-w-[320px] md:px-10 md:py-6 lg:mx-0'>
+              <a href="https://api.whatsapp.com/send?l=pt&phone=5571992360876&text=Olá! Tudo bem?" className='font-["Poppins"] block px-8 py-5 max-w-[260px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 uppercase md:text-xl md:max-w-[320px] md:px-10 md:py-6 lg:mx-0'>
                 Quero mudar de vida!
               </a>
             </div>
