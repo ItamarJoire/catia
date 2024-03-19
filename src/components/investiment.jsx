@@ -9,8 +9,8 @@ export function Investiment(){
     <GridContainer>
       <div className="mt-16 mb-12">
         <div>
-          <p className="text-sm uppercase font-light text-gray-700">Investimento</p>
-          <p>Conheça nossos produtos</p>
+          <p className="text-sm uppercase font-medium text-gray-700">Investimento</p>
+          <h2 className="text-base-green text-xl">Conheça meus infoprodutos</h2>
         </div>
 
         <div className="space-y-8">
