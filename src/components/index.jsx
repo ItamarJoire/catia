@@ -1,3 +1,5 @@
 export { Hero } from './hero'
 export { Highlights } from './highlights'
 export { Strategy } from './strategy'
+export { About } from './about'
+export { Investiment } from './investiment'

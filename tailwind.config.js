@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         base: {
+          'green-light': '#445E0A',
           green: '#2e4007',
           'green-dark': '#212E05',
           gray: '#545454',
