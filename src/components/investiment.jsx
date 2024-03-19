@@ -8,12 +8,12 @@ export function Investiment(){
   return(
     <GridContainer>
       <div className="mt-16 mb-12">
-        <div>
+        <div className="pb-4">
           <p className="text-sm uppercase font-medium text-gray-70 md:text-lg">Investimento</p>
           <h2 className="text-base-green text-xl md:text-2xl">Conheça meus infoprodutos</h2>
         </div>
 
-        <div className="space-y-8">
+        <div className="space-y-8 lg:grid lg:grid-cols-2 lg:gap-x-4 lg: lg:space-y-0">
           <CardContainer 
             title='E-book - Mulher de atitude (por Cátia Oliveira)'
             description='Embarque em uma jornada transformadora rumo à descoberta da verdadeira essência da mulher de atitude!'
@@ -21,7 +21,7 @@ export function Investiment(){
             value='R$ 5,03'
             inCash='R$ 27,00'
             link='https://sun.eduzz.com/2195388?cupom=PRESENTE2'
-         />
+          />
 
           <CardContainer 
             title='Combo Mulher em Superação (Sessão presencial + Ebook)'
@@ -42,14 +42,14 @@ export function Investiment(){
           />                   
         </div>
 
-        <div className="text-center space-y-4">
+        <div className="text-center space-y-4 lg:mx-36">
           <img src={ImgGuarantee} alt="" className="mt-8 w-[260px] mx-auto"/>
           <p className="text-gray-800 uppercase font-semibold">Risco zero</p>
           <p className="text-base-green-light font-semibold text-3xl">Garantia incondicional de 7 dias</p>
           <p className="text-xl text-gray-500">Se dentro desse período você achar que não é para você, basta enviar um e-mail para suporte@email.com para solicitar o reembolso.</p>
         </div>
 
-        <div className="mt-20 text-center">
+        <div className="mt-20 text-center lg:mx-36">
           <p className="font-['Poppins'] text-3xl text-base-green-light font-semibold ">Quero fazer parte do Grupo Vip Mulheres em Superação</p>
           
           <div>

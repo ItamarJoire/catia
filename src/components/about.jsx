@@ -5,11 +5,12 @@ import ImgMentor from '/mentor.jpeg'
 export function About(){
   return(
     <GridContainer>
-      <div>
+      <div className="">
         <div>
+          <img src={ImgMentor} alt="" className="mb-8 rounded-md mx-auto md:max-w-[400px] lg:size-[460px] lg:float-right lg:ml-6 lg:mt-24"/>
           <p className="text-sm uppercase font-medium text-gray-700 md:text-lg">Conheça um pouco da sua mentora</p>
           <h2><span className="text-base-green text-xl md:text-2xl">Cátia Oliveira </span></h2>
-          <p className="text-gray-500 text-base pt-2 md:text-lg md:max-w-[620px]">Renomada empresária, escritora e palestrante, emerge como uma voz inspiradora para mulheres maduras que enfrentam desafios emocionais. Com 50 anos, mãe solo e cristã dedicada, Cátia é uma especialista em Gestão Empresarial e Master Coach, desempenhando o papel de mentora para mulheres que buscam superações significativas.
+          <p className="text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">Renomada empresária, escritora e palestrante, emerge como uma voz inspiradora para mulheres maduras que enfrentam desafios emocionais. Com 50 anos, mãe solo e cristã dedicada, Cátia é uma especialista em Gestão Empresarial e Master Coach, desempenhando o papel de mentora para mulheres que buscam superações significativas.
           <br /><br />
           Ao coautora do livro <span className="font-bold">"Legado"</span> e <span className="font-bold">"Mulheres em Performance"</span>, Cátia compartilha não apenas suas experiências profissionais, mas também suas batalhas pessoais. Mãe de um filho de 15 anos, ela enfrentou diversas superações, desde aceitação própria e baixa autoestima até lidar com luto, obesidade, bloqueios em redes sociais, exposição pública, calots financeiros e dívidas.
           <br /><br />
@@ -21,8 +22,6 @@ export function About(){
         
           </p>
         </div>
-
-        <img src={ImgMentor} alt="" className="mt-8 rounded-md mx-auto md:max-w-[400px]"/>
       </div>
     </GridContainer>
   )

@@ -9,7 +9,7 @@ export function Highlights(){
           <h3 className="text-xl text-white">Para quem é?</h3>
         </div>
 
-        <div className="md:grid md:grid-cols-3 gap-4">
+        <div className="space-y-4 md:grid md:grid-cols-3 gap-4 lg:space-y-0">
           <HighContainer number='1' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nihil fuga consectetur, nam labore cum placeat explicabo sint cupiditate, sunt expedita. ' />
 
           <HighContainer number='2' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nihil fuga cons. Alias, itaque quod ab architecto saepe tempore accusantium porro!' />

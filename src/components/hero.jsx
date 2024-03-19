@@ -7,20 +7,23 @@ export function Hero(){
   return(
     <div className="bg-[url('/bg-hero.jpg')]">
       <GridContainer>
-        <div className=''>
-          <img src={LogoGreen} alt="" className='pt-8 w-[200px] mx-auto md:w-[240px]'/>
+        <div className='lg:flex lg:items-center'>
           <div className='mb-16 flex flex-col'>
-            <h1 className="font-['Poppins'] pt-10 text-4xl text-center font-semibold text-gray-800 mx-auto md:text-5xl">
-              Obtenha habilidades e competências emocionais para ter força e coragem!
-            </h1>
-            <h4 className='mt-3 mb-8 text-xl text-center text-gray-500 max-auto md:text-2xl'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium necessitatibus sapiente cum. Repellat id minima deserunt et similique 
-            </h4>
-            <a href="#" className='font-["Poppins"] px-8 py-5 max-w-[280px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 uppercase md:text-xl md:max-w-[320px] md:px-10 md:py-6'>
-              Quero mudar de vida!
-            </a>
+            <div >
+              <img src={LogoGreen} alt="" className='pt-8 w-[200px] mx-auto md:w-[240px] lg:mx-0'/>
+              <h1 className="font-['Poppins'] pt-10 text-4xl text-center font-semibold text-gray-800 mx-auto md:text-5xl lg:text-left lg:w-full">
+                Obtenha habilidades e competências emocionais para ter força e coragem!
+              </h1>
+              <h4 className='mt-3 mb-8 text-xl text-center text-gray-500 max-auto md:text-2xl lg:text-left'>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium necessitatibus sapiente cum. Repellat id minima deserunt et similique 
+              </h4>
+            
+              <a href="#" className='font-["Poppins"] block px-8 py-5 max-w-[280px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 uppercase md:text-xl md:max-w-[320px] md:px-10 md:py-6 lg:mx-0'>
+                Quero mudar de vida!
+              </a>
+            </div>
           </div>
-          <img src={ImgWoman} alt="" className='mx-auto md:w-[600px]'/>
+          <img src={ImgWoman} alt="" className='mx-auto md:w-[600px] lg:size-[500px]'/>
         </div>
       </GridContainer>
     </div>

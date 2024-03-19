@@ -3,7 +3,7 @@ import LogoGreen from '/logo-green.png'
 export function CardContainer({ title, description, portion, value, inCash, link}){
   return(
     <div>
-    <div className="mt-4 mx-auto bg-white border-[1px] border-solid border-base-green-light rounded-md text-center px-3 py-8 md:max-w-[540px]">
+      <div className="mt-4 mx-auto bg-white border-[1px] border-solid border-base-green-light rounded-md text-center px-3 py-8 md:max-w-[540px] lg:min-h-[640px]">
       <img src={LogoGreen} alt="" className="w-[160px] mx-auto md:w-[180px]"/>
       
       <div className="mt-8 space-y-3">
@@ -20,7 +20,7 @@ export function CardContainer({ title, description, portion, value, inCash, link
       <a href={`${link}`} target="_blank" className='mt-6 text-lg inline-block font-["Poppins"] px-8 py-5 max-w-[280px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 md:mx-0 uppercase md:text-xl'>
         Adquirir agora!
       </a>
+      </div>
     </div>
-  </div>
   )
 }
