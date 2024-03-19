@@ -12,14 +12,14 @@ export function Hero(){
             <div >
               <img src={LogoGreen} alt="" className='pt-8 w-[200px] mx-auto md:w-[240px] lg:mx-0'/>
               <h1 className="font-['Poppins'] pt-10 text-4xl text-center font-semibold text-gray-800 mx-auto md:text-5xl lg:text-left lg:w-full">
-                Obtenha habilidades e competências emocionais para ter força e coragem!
+                Obtenha habilidades e competências emocionais para se tornar uma mulher em superação, em autodesenvolvimento!
               </h1>
               <h4 className='mt-3 mb-8 text-xl text-center text-gray-500 max-auto md:text-2xl lg:text-left'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium necessitatibus sapiente cum. Repellat id minima deserunt et similique 
               </h4>
             
-              <a href="https://api.whatsapp.com/send?l=pt&phone=5571992360876&text=Olá! Tudo bem?" className='font-["Poppins"] block px-8 py-5 max-w-[260px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 uppercase md:text-xl md:max-w-[320px] md:px-10 md:py-6 lg:mx-0'>
-                Quero mudar de vida!
+              <a href="https://api.whatsapp.com/send?l=pt&phone=5571992360876&text=Olá! Tudo bem?" className='font-["Poppins"] block px-8 py-5 max-w-[250px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 uppercase md:text-xl md:max-w-[320px] md:px-10 md:py-6 lg:mx-0'>
+                Quero me conhecer!
               </a>
             </div>
           </div>
