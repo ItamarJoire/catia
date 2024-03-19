@@ -1,4 +1,4 @@
-import { GridContainer } from "../containers"
+import { CardContainer, GridContainer } from "../containers"
 
 import LogoGreen from '/logo-green.png'
 import ImgGuarantee from '/guarantee.png'
@@ -14,68 +14,32 @@ export function Investiment(){
         </div>
 
         <div className="space-y-8">
-          <div>
-            <div className="mt-4 mx-auto bg-white border-[1px] border-solid border-base-green-light rounded-md text-center px-3 py-8 md:max-w-[540px]">
-              <img src={LogoGreen} alt="" className="w-[160px] mx-auto md:w-[180px]"/>
-              
-              <div className="mt-8 space-y-3">
-                <p className="font-bold text-2xl md:text-3xl">Oferta exclusiva!</p>
-                <h2 className="font-semibold text-xl md:text-2xl">E-book - Mulher de atitude (por Cátia Oliveira)</h2> 
-                <p className="text-gray-400 text-lg md:text-xl">Embarque em uma jornada transformadora rumo à descoberta da verdadeira essência da mulher de atitude!</p>
-              </div>
+          <CardContainer 
+            title='E-book - Mulher de atitude (por Cátia Oliveira)'
+            description='Embarque em uma jornada transformadora rumo à descoberta da verdadeira essência da mulher de atitude!'
+            portion='6x'
+            value='R$ 5,03'
+            inCash='R$ 27,00'
+            link='https://sun.eduzz.com/2195388?cupom=PRESENTE2'
+         />
 
-              <div className="mt-4">
-                <p className="text-gray-700 font-semibold text-lg md:text-xl">6x de <span className="text-4xl font-extrabold text-base-green-light md:text-5xl">R$5,03</span></p>
-                <p className="text-gray-600 font-medium text-lg md:text-xl">ou R$27,00 à vista</p>
-              </div>
-              
-              <a href="https://sun.eduzz.com/2195388?cupom=PRESENTE2" target="_blank" className='mt-6 text-lg inline-block font-["Poppins"] px-8 py-5 max-w-[280px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 md:mx-0 uppercase md:text-xl'>
-                Adquirir agora!
-              </a>
-            </div>
-          </div>
+          <CardContainer 
+            title='Combo Mulher em Superação (Sessão presencial + Ebook)'
+            description='Explore a jornada de autodescoberta e plenitude com o combo "Mulher plena". Este conjunto cuidadosamente elaborado oferece ferramentas essenciais para mulheres que buscam equilíbrio, autoconhecimento e uma vida plena.'
+            portion='12x'
+            value='R$ 18,09'
+            inCash='R$ 177,00'
+            link='https://sun.eduzz.com/2229519?cupom=PRESENTE2'
+          />
 
-          <div>
-            <div className="mt-4 bg-white border-[1px] border-solid border-base-green-light rounded-md text-center px-3 py-8">
-              <img src={LogoGreen} alt="" className="w-[160px] mx-auto"/>
-              
-              <div className="mt-8 space-y-3">
-                <p className="font-bold text-2xl">Oferta exclusiva!</p>
-                <h2 className="font-semibold text-xl">Combo Mulher em Superação (Sessão presencial + Ebook)</h2> 
-                <p className="text-gray-400 text-lg">Explore a jornada de <span className="font-medium">autodescoberta</span> e <span className="font-medium">plenitude</span> com o combo "Mulher plena". Este conjunto cuidadosamente elaborado oferece ferramentas essenciais para mulheres que buscam <span className="font-medium">equilíbrio</span>, <span className="font-medium">autoconhecimento</span> e uma <span className="font-medium">vida plena</span>.</p>
-              </div>
-
-              <div className="mt-4">
-                <p className="text-gray-700 font-semibold text-lg">12x de <span className="text-4xl font-extrabold text-base-green-light">R$18,09</span></p>
-                <p className="text-gray-600 font-medium text-lg">ou R$177,00 à vista</p>
-              </div>
-              
-              <a href="https://sun.eduzz.com/2229519?cupom=PRESENTE2" target="_blank" className='mt-6 text-lg inline-block font-["Poppins"] px-8 py-5 max-w-[280px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 md:mx-0 uppercase'>
-                Adquirir agora!
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <div className="mt-4 bg-white border-[1px] border-solid border-base-green-light rounded-md text-center px-3 py-8">
-              <img src={LogoGreen} alt="" className="w-[160px] mx-auto"/>
-              
-              <div className="mt-8 space-y-3">
-                <p className="font-bold text-2xl">Oferta exclusiva!</p>
-                <h2 className="font-semibold text-xl">Combo Performance Feminina (Livro + Ebook)</h2> 
-                <p className="text-gray-400 text-lg">Descubra o poder da transformação pessoal com o Combo "Performance Feminina". Este pacote exclusivo foi criado para mulheres que desejam iniciar uma jornada incrível em direção à sua melhor versão.</p>
-              </div>
-
-              <div className="mt-4">
-                <p className="text-gray-700 font-semibold text-lg">12x de <span className="text-4xl font-extrabold text-base-green-light">R$9,91</span></p>
-                <p className="text-gray-600 font-medium text-lg">ou R$97,00 à vista</p>
-              </div>
-              
-              <a href="https://sun.eduzz.com/2198859?cupom=PRESENTE2" target="_blank" className='mt-6 text-lg inline-block font-["Poppins"] px-8 py-5 max-w-[280px] mx-auto bg-gradient-to-r from-base-yellow-dark to-base-green-light text-white font-bold rounded-md hover:opacity-90 duration-200 md:mx-0 uppercase'>
-                Adquirir agora!
-              </a>
-            </div>
-          </div>
+          <CardContainer 
+            title='Combo Performance Feminina (Livro + Ebook)'
+            description='Descubra o poder da transformação pessoal com o Combo "Performance Feminina". Este pacote exclusivo foi criado para mulheres que desejam iniciar uma jornada incrível em direção à sua melhor versão.'
+            portion='12x'
+            value='R$ 9,91'
+            inCash='R$ 97,00'
+            link='https://sun.eduzz.com/2198859?cupom=PRESENTE2'
+          />                   
         </div>
 
         <div className="text-center space-y-4">
@@ -97,8 +61,6 @@ export function Investiment(){
           </div>
         </div>
       </div>
-
-      
     </GridContainer>
   )
 }
