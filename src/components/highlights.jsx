@@ -9,12 +9,35 @@ export function Highlights(){
           <h3 className="text-xl text-white">Para quem é?</h3>
         </div>
 
-        <div className="space-y-4 md:grid md:grid-cols-3 gap-4 lg:space-y-0">
-          <HighContainer number='1' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nihil fuga consectetur, nam labore cum placeat explicabo sint cupiditate, sunt expedita. ' />
+        <div className="space-y-8 md:grid md:grid-cols-3 gap-4 lg:space-y-0">
+          <div>
+            <div className="bg-base-yellow-dark inline-block px-4 py-2 rounded-md border-[1px]">
+              <p className="text-lg text-white font-semibold">1</p>
+            </div>
+            <p className="mt-3 text-white md:max-w-[420px] font-semibold text-base">Mulher que busca direção</p>
+            <p className="mt-3 text-white md:max-w-[420px] text-base">Se você está perdida e não sabe qual caminho trilhar, precisa de um norte e um destino… <br /> É para você!</p>
+         </div>
 
-          <HighContainer number='2' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nihil fuga cons. Alias, itaque quod ab architecto saepe tempore accusantium porro!' />
+         <div>
+            <div className="bg-base-yellow-dark inline-block px-4 py-2 rounded-md border-[1px]">
+              <p className="text-lg text-white font-semibold">2</p>
+            </div>
+            <p className="mt-3 text-white md:max-w-[420px] font-semibold text-base"> Mulher que busca maturidade</p>
+            <p className="mt-3 text-white md:max-w-[420px] text-base">Se você precisa tomar atitudes de impacto. Baseado em minha vivência, traçamos o seu amadurecimento fundado na superação e fortalecimento seu autoconhecimento. <br />É para você!</p>
+         </div>
 
-          <HighContainer number='3' description='Lorem explicabo sint cupiditate, sunt expedita. Alias, itaque quod ab architecto saepe tempore accusantium porro!' />
+         <div>
+            <div className="bg-base-yellow-dark inline-block px-4 py-2 rounded-md border-[1px]">
+              <p className="text-lg text-white font-semibold">3</p>
+            </div>
+            <p className="mt-3 text-white md:max-w-[420px] font-semibold text-base"> Mulher que quer virar a chave</p>
+            <p className="mt-3 text-white md:max-w-[420px] text-base">SDe você está estagnada e cansada de viver no automático. Se não possui constância em sua ações e vive procrastinando sua evolução.
+            <br />Sem dúvidas, é para você!</p>
+         </div>
+
+         
+
+         
         </div>
       </section>
     </GridContainer>
