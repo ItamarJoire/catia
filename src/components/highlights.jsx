@@ -31,7 +31,7 @@ export function Highlights(){
               <p className="text-lg text-white font-semibold">3</p>
             </div>
             <p className="mt-3 text-white md:max-w-[420px] font-semibold text-base"> Mulher que quer virar a chave</p>
-            <p className="mt-3 text-white md:max-w-[420px] text-base">SDe você está estagnada e cansada de viver no automático. Se não possui constância em sua ações e vive procrastinando sua evolução.
+            <p className="mt-3 text-white md:max-w-[420px] text-base">Se você está estagnada e cansada de viver no automático. Se não possui constância em sua ações e vive procrastinando sua evolução.
             <br />Sem dúvidas, é para você!</p>
          </div>
 
