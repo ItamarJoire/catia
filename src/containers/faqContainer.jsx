@@ -4,7 +4,7 @@ export function FaqContainer({question, response, backgroundResponse, text, text
   const [open, setOpen] = useState(false)
 
   return(
-    <div className="md:mx-8 lg:mr-52">
+    <div className="md:mx-8">
       <h2>
         <button onClick={() => setOpen(!open)} type="button" className="flex items-center justify-between w-full p-5 font-medium"> 
           <span className={`${text} text-left text-lg md:text-xl`}>{question}</span>

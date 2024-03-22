@@ -6,8 +6,8 @@ export function Faq(){
     <div className="my-24">
       <GridContainer>
         <div>
-          <p className="text-sm uppercase font-medium text-gray-700">Perguntas frequentes</p>
-          <h2 className="text-base-green text-xl">Conheça as dúvidas mais frequentes</h2>
+          <p className="text-sm uppercase font-medium text-gray-700  md:text-lg">Perguntas frequentes</p>
+          <h2 className="text-base-green text-xl md:text-2xl">Conheça as dúvidas mais frequentes</h2>
         </div>
         <FaqContainer 
             text='text-title'
