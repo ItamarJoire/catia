@@ -13,7 +13,7 @@ export function Faq(){
             text='text-title'
             question='Pergunta 01?'
             response='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae excepturi necessitatibus, placeat dolor eaque molestiae illo itaque maiores odio sunt! Ullam cumque quis consequuntur maiores ipsam magni voluptatum non?'
-            backgroundResponse='bg-gray-800'
+            backgroundResponse='bg-base-green-dark'
             textResponse='text-white'
           />
       </GridContainer>

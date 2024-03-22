@@ -42,12 +42,12 @@ export function Investiment(){
           />                   
         </div>
 
-        <div className="text-center space-y-4 lg:mx-36">
+        {/* <div className="text-center space-y-4 lg:mx-36">
           <img src={ImgGuarantee} alt="" className="mt-8 w-[260px] mx-auto"/>
           <p className="text-gray-800 uppercase font-semibold">Risco zero</p>
           <p className="text-base-green-light font-semibold text-3xl">Garantia incondicional de 7 dias</p>
           <p className="text-xl text-gray-500">Se dentro desse período você achar que não é para você, basta enviar um e-mail para suporte@email.com para solicitar o reembolso.</p>
-        </div>
+        </div> */}
 
         <div className="mt-20 text-center lg:mx-36">
           <p className="font-['Poppins'] text-3xl text-base-green-light font-semibold ">Quero fazer parte do Grupo Vip Mulheres em Superação</p>
