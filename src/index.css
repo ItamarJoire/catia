@@ -4,6 +4,7 @@
 
 body{
   font-family: "Montserrat", sans-serif;
+  background-color: #fafafa;
 }
 
 /* Estilizando o scrollbar em navegadores baseados em WebKit (como Chrome, Safari, Opera) */
