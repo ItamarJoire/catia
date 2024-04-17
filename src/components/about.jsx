@@ -4,15 +4,17 @@ import ImgMentor from '/mentor.png'
 
 export function About(){
   return(
-    <section>    
-      
+    <section>      
       <GridContainer>
+        <div className="mb-4">
+          <p className="text-sm uppercase font-medium text-gray-700 md:text-lg">Conheça um pouco da sua mentora</p>
+          <h2><span className="text-base-green text-xl md:text-2xl">Cátia Oliveira </span></h2>
+        </div>
       <CarouselContainer />
       <div className="mt-8">
         <div>
           {/* <img src={ImgMentor} alt="" className="mb-8 rounded-md mx-auto w-[300px] md:max-w-[400px] lg:w-[360px] lg:float-right lg:ml-6 lg:mt-24"/> */}
-          <p className="text-sm uppercase font-medium text-gray-700 md:text-lg">Conheça um pouco da sua mentora</p>
-          <h2><span className="text-base-green text-xl md:text-2xl">Cátia Oliveira </span></h2>
+          
           <p className="text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">Renomada empresária, escritora e palestrante, emerge como uma voz inspiradora para mulheres maduras que enfrentam desafios. Com 50 anos, mãe solo e cristã dedicada, Cátia é uma especialista em Gestão Empresarial e Master Coach, desempenhando o papel de mentora para mulheres que buscam superações significativas.
           <br /><br />
           Ao coautora do livro "Legado", "A Arte de Vencer" e "Mulheres em Performance", e do E-book Mulher de Atitude, Cátia compartilha não apenas suas experiências profissionais, mas também suas superações  pessoais. Mãe de um filho de 15 anos, ela enfrentou diversos desafios, que a impulsionaram para a resiliência e superações; desde aceitação própria e baixa autoestima até lidar com luto (perda do esposo aos 36 anos, filho com um ano e 8 meses) obesidade, bloqueios em redes sociais, exposição pública, calote financeiros e dívidas.

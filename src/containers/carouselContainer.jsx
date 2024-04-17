@@ -51,21 +51,26 @@ export function CarouselContainer(){
   };
 
   return (
-    <Div className='mySwiper mt-3'>
+    <Div className='mySwiper mt-3 md:px-24 lg:px-44 xl:px-80'>
       <Swiper
-        className='pb-10'
+        className='pb-12'
         spaceBetween={0}
         slidesPerView={1}
         loop={false}
         centeredSlides={true}
         modules={[ Autoplay, Pagination]}
         pagination={pagination}
+        // breakpoints={{
+        //   768: {
+        //     slidesPerView: 2,
+        //   }
+        // }}  
       >
         {    
           Imgs.map((img, index) => (
             <SwiperSlide key={index}>
-              <div className='md:border-[1px] md:rounded-md md:p-2'>
-                <img src={img.src} alt={img.alt} className='mt-3 w-full h-auto object-cover rounded-lg'/>
+              <div className='rounded-lg'>
+                <img src={img.src} alt={img.alt} className='w-full md:w-[500px] md:mx-auto h-auto md:h-[640px] object-cover rounded-lg'/>
               </div>
             </SwiperSlide>
         ))}

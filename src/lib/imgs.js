@@ -7,6 +7,7 @@ import Purpose from '/catia/purpose.jpg'
 import Curiosities1 from '/catia/curiosities-part01.jpg'
 import Curiosities2 from '/catia/curiosities-part02.jpg'
 import Who from '/catia/who-is-it.jpg'
+import Life from '/catia/life.jpg'
 
 export const Imgs = [
   { src: Mission, alt: '' },
@@ -17,5 +18,6 @@ export const Imgs = [
   { src: Purpose, alt: '' },
   { src: Curiosities1, alt: '' },
   { src: Curiosities2, alt: '' },
-  { src: Who, alt: '' }
+  { src: Who, alt: '' },
+  { src: Life, alt: '' }
 ]
