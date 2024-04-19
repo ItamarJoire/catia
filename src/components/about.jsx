@@ -45,7 +45,7 @@ export function About(){
                 </div>
               </div>
 
-              <div className="hidden lg:grid lg:space-y-10">
+              <div className="hidden lg:grid lg:space-y-6">
                 <div className="lg:flex lg:flex-row-reverse lg:items-center lg:p-4 bg-white border-[1px] rounded-md border-base-green-light border-opacity-60 p-3">
                   <img src={ImgMission} alt="" className="mb-3 object-cover rounded-md mx-auto  d:max-w-[400px] lg:mb-0 lg:w-[360px] lg:float-right"/>
                   <p className="text-gray-500 text-base lg:pr-8 pt-2 md:text-lg lg:max-w-[1000px]">
