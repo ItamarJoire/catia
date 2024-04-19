@@ -15,7 +15,15 @@ export function Highlights(){
               <p className="text-lg text-white font-semibold">1</p>
             </div>
             <p className="mt-3 text-white md:max-w-[420px] font-semibold text-base">Mulher que busca direção</p>
-            <p className="mt-3 text-white md:max-w-[420px] text-base">Se você está perdida e não sabe qual caminho trilhar, precisa de um norte e um destino… <br /> É para você!</p>
+            <p className="mt-3 text-white md:max-w-[420px] text-base">
+              Mulher que a partir do conhecimento da sua história, deseja mudança de comportamento para atrair e ter novos resultados.
+              <br /><br />
+              <li>Mulher que deseja encontrar sua missão e propósito.</li>
+              <li>Mulher que deseja da um novo sentido a sua jornada de vida.</li>
+              <li>Mulher que deseja fazer transição de carreira.</li>
+              <li>Mulher que deseja ainda na maturidade viver sonhos.</li>
+              <br />
+              Se você está perdida e não sabe qual caminho trilhar, precisa de um norte e um destino… <br /> É para você!</p>
          </div>
 
          <div>
