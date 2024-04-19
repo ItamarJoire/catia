@@ -1,5 +1,8 @@
-import { CarouselContainer, GridContainer } from "../containers";
+import { GridContainer } from "../containers";
 
+import ImgMission from '/catia/mission.jpg'
+import ImgQualification from '/catia/qualification.jpg'
+import ImgPillars from '/catia/pillars.jpg'
 import ImgMentor from '/mentor.png'
 
 export function About(){
@@ -11,12 +14,39 @@ export function About(){
           <h2><span className="text-base-green text-xl md:text-2xl">Cátia Oliveira </span></h2>
         </div>
         <div className="">
-          <CarouselContainer />
           <div className="mt-8">
             <div>
-              {/* <img src={ImgMentor} alt="" className="mb-8 rounded-md mx-auto w-[300px] md:max-w-[400px] lg:w-[360px] lg:float-right lg:ml-6 lg:mt-24"/> */}
-              
-              <p className="text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">Renomada empresária, escritora e palestrante, emerge como uma voz inspiradora para mulheres maduras que enfrentam desafios. Com 50 anos, mãe solo e cristã dedicada, Cátia é uma especialista em Gestão Empresarial e Master Coach, desempenhando o papel de mentora para mulheres que buscam superações significativas.
+              <div className="space-y-6">
+                <div className="bg-white border-[1px] rounded-md border-base-green-light border-opacity-60 p-3">
+                  <img src={ImgMission} alt="" className="mb-3 object-cover rounded-md mx-auto  md:max-w-[400px] lg:w-[360px] lg:float-right lg:ml-6 lg:mt-24"/>
+                  <p className="text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">
+                    Olá! Sou Cátia Oliveira, uma mulher de 50 anos, cheia de experiências e paixões que moldaram minha vida e minha carreira. Sou cristã e mãe de um filho incrível de 15 anos, que é uma das minhas maiores alegrias e fontes de motivação.
+                    <br /><br />
+                    Como mentora de mulheres e palestrante, tenho a honra de compartilhar minha jornada e conhecimentos com outras mulheres que buscam crescer e se destacar. Minha trajetória em liderança de pessoas começou há 35 anos, e desde então tenho me dedicado a ajudar mulheres a encontrar seu propósito e alcançar seus objetivos.
+                  </p>          
+                </div>
+
+                <div className="bg-white border-[1px] rounded-md border-base-yellow-dark-2 border-opacity-60 p-3">
+                  <img src={ImgQualification} alt="" className="mb-3 object-cover rounded-md mx-auto  md:max-w-[400px] lg:w-[360px] lg:float-right lg:ml-6 lg:mt-24"/>
+                  <p className="text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">
+                    Sou empreendedora por natureza, sempre buscando inovações e oportunidades para me reinventar. 
+                    <br /><br />
+                    Minha formação em assistência social e MBA em gestão empresarial me deram uma base sólida para entender as necessidades das pessoas e criar estratégias eficazes para o sucesso.
+                  </p>          
+                </div>
+
+                <div className="bg-white border-[1px] rounded-md border-base-green border-opacity-60 p-3">
+                  <img src={ImgPillars} alt="" className="mb-3 object-cover rounded-md mx-auto  md:max-w-[400px] lg:w-[360px] lg:float-right lg:ml-6 lg:mt-24"/>
+                  <p className="text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">
+                    Sou uma pessoa comunicativa, determinada e minha fé é um pilar fundamental em minha vida. Acredito em cuidar não apenas do corpo, mas também da mente, para que possamos enfrentar os desafios com força e equilíbrio. 
+                    <br /><br />
+                    Estou aqui para ajudá-la a descobrir seu potencial e guiá-la em sua jornada.
+                  </p>          
+                </div>
+              </div>
+
+              <img src={ImgMentor} alt="" className="mt-12 mb-3 object-cover rounded-md w-[80%] mx-auto md:max-w-[400px] lg:w-[360px] lg:float-right lg:ml-6 lg:mt-24"/>
+              <p className="mt-4 text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">Renomada empresária, escritora e palestrante, emerge como uma voz inspiradora para mulheres maduras que enfrentam desafios. Com 50 anos, mãe solo e cristã dedicada, Cátia é uma especialista em Gestão Empresarial e Master Coach, desempenhando o papel de mentora para mulheres que buscam superações significativas.
               <br /><br />
               Ao coautora do livro "Legado", "A Arte de Vencer" e "Mulheres em Performance", e do E-book Mulher de Atitude, Cátia compartilha não apenas suas experiências profissionais, mas também suas superações  pessoais. Mãe de um filho de 15 anos, ela enfrentou diversos desafios, que a impulsionaram para a resiliência e superações; desde aceitação própria e baixa autoestima até lidar com luto (perda do esposo aos 36 anos, filho com um ano e 8 meses) obesidade, bloqueios em redes sociais, exposição pública, calote financeiros e dívidas.
                 <br /><br />
