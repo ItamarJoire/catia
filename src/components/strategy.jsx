@@ -14,9 +14,9 @@ export function Strategy(){
           <p className="text-gray-500 text-base md:text-lg">
           As minhas experiências vívidas podem ser  bússolas na vida de outras mulheres que almejam, realinhar ou descobrir sua real essência, fortalecer sua identidade e o crescimento para superar seus limites e ir além.
           <br /><br />
-          Meu objetivo é ajudá-la apontando o caminho com a orientação, ferramentas eficazes e acompanhamento necessário para que suas habilidades sejam destravadas.
+          Meu objetivo é ajudá-la apontando o caminho com a orientação, ferramentas eficazes e acompanhamento necessário para que suas habilidades sejam desenvolvidas e fortalecidas.
           <br /><br />
-          Como mentora, já trilhei longos caminhos, tenho resultados de valor, e transfiro decisões que transformaram minha vulnerabilidades em grandeza: ser mulher uma madura na minha essência vivendo minha missão e cumprindo um propósito 
+          Como mentora, já trilhei longos caminhos, tenho resultados de valor, e transfiro decisões que transformaram minha vulnerabilidades em grandeza: ser uma mulher madura na minha essência, vivendo a missão e cumprindo um propósito. 
           <br /><br />
           Sou Cátia Oliveira, referência em superação.
           </p>
