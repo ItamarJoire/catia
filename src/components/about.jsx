@@ -58,7 +58,7 @@ export function About(){
               <div className="hidden lg:grid lg:space-y-6">
                 <div className="  ">
                   <div className="">
-                    <img src={ImgMentor} alt="" className="mb-3 lg:ml-6 h-[440px] lg:mr-8 object-cover rounded-md mx-auto md:max-w-[400px] lg:mb-0 lg:w-[360px] lg:float-right"/>
+                    <img src={ImgMentor} alt="" className="mb-3 lg:ml-6 h-[440px]  object-cover rounded-md mx-auto md:max-w-[400px] lg:mb-0 lg:w-[360px] lg:float-right"/>
                     <p className="mt-4 text-gray-500 text-base  pt-2 md:text-lg lg:max-w-[1000px]">
                       Renomada empresária, escritora e palestrante, emerge como uma voz inspiradora para mulheres maduras que enfrentam desafios. Com 50 anos, mãe solo e cristã dedicada, Cátia é uma especialista em Gestão Empresarial e Master Coach, desempenhando o papel de mentora para mulheres que buscam superações significativas.
                       <br /><br />
@@ -68,7 +68,7 @@ export function About(){
 
                   <div className="mt-32">
                     <img src={ImgCatiaBooks} alt="" className="mb-3 p-3 object-cover rounded-md mx-auto md:max-w-[400px] lg:mb-0 lg:w-[360px] lg:float-left"/>
-                    <p className="mt-4 text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1200px]">
+                    <p className="mt-4 text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1300px]">
                     <br /><br />
                     A própria jornada de Cátia é um testemunho poderoso de aceitação, resiliência e transformação. Desde os 14 anos, quando enfrentou os primeiros confliots de baixa autoestima e identidade, até os defafios mais recentes, ela escolheu não apenas superar, mas também se tornar uma fonte de inspiração para outras mulheres. Seu propósito claro é "inspirar e conduzir pessoas a enxergarem suas possibilidades para viverem superações."
                     <br /><br />
