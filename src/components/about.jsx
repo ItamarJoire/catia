@@ -4,7 +4,7 @@ import ImgMission from '/catia/mission.jpg'
 import ImgQualification from '/catia/qualification.jpg'
 import ImgPillars from '/catia/pillars.jpg'
 import ImgCatiaBooks from '/catia/catia-green-books.png'
-import ImgMentor from '/mentor.png'
+import ImgMentor from '/mentor-remove-bg.png'
 
 export function About(){
   return(
@@ -19,7 +19,7 @@ export function About(){
             <div>
               <div className="space-y-6 lg:hidden">
                 <div className="">
-                  <img src={ImgMission} alt="" className="mb-3 object-cover rounded-md mx-auto  md:max-w-[400px] lg:w-[360px] lg:float-right lg:ml-6 lg:mt-24"/>
+                  <img src={ImgMentor} alt="" className="mb-3 object-cover rounded-md mx-auto h-[400px] md:max-w-[400px] lg:w-[360px] lg:float-right lg:ml-6 lg:mt-24"/>
                   <p className="mt-4 text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">
                     Renomada empresária, escritora e palestrante, emerge como uma voz inspiradora para mulheres maduras que enfrentam desafios. Com 50 anos, mãe solo e cristã dedicada, Cátia é uma especialista em Gestão Empresarial e Master Coach, desempenhando o papel de mentora para mulheres que buscam superações significativas.
                     <br /><br />
@@ -58,7 +58,7 @@ export function About(){
               <div className="hidden lg:grid lg:space-y-6">
                 <div className="  ">
                   <div className="">
-                    <img src={ImgMission} alt="" className="mb-3 lg:ml-10 object-cover rounded-md mx-auto md:max-w-[400px] lg:mb-0 lg:w-[360px] lg:float-right"/>
+                    <img src={ImgMentor} alt="" className="mb-3 lg:ml-10 object-cover rounded-md mx-auto md:max-w-[400px] lg:mb-0 lg:w-[360px] lg:float-right"/>
                     <p className="mt-4 text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">
                       Renomada empresária, escritora e palestrante, emerge como uma voz inspiradora para mulheres maduras que enfrentam desafios. Com 50 anos, mãe solo e cristã dedicada, Cátia é uma especialista em Gestão Empresarial e Master Coach, desempenhando o papel de mentora para mulheres que buscam superações significativas.
                       <br /><br />
