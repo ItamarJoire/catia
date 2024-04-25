@@ -58,8 +58,8 @@ export function About(){
               <div className="hidden lg:grid lg:space-y-6">
                 <div className="  ">
                   <div className="">
-                    <img src={ImgMentor} alt="" className="mb-3 lg:ml-10 object-cover rounded-md mx-auto md:max-w-[400px] lg:mb-0 lg:w-[360px] lg:float-right"/>
-                    <p className="mt-4 text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">
+                    <img src={ImgMentor} alt="" className="mb-3 lg:ml-6 h-[440px] lg:mr-8 object-cover rounded-md mx-auto md:max-w-[400px] lg:mb-0 lg:w-[360px] lg:float-right"/>
+                    <p className="mt-4 text-gray-500 text-base  pt-2 md:text-lg lg:max-w-[1000px]">
                       Renomada empresária, escritora e palestrante, emerge como uma voz inspiradora para mulheres maduras que enfrentam desafios. Com 50 anos, mãe solo e cristã dedicada, Cátia é uma especialista em Gestão Empresarial e Master Coach, desempenhando o papel de mentora para mulheres que buscam superações significativas.
                       <br /><br />
                       Ao coautora do livro "Legado", "A Arte de Vencer" e "Mulheres em Performance", e do E-book Mulher de Atitude, Cátia compartilha não apenas suas experiências profissionais, mas também suas superações  pessoais. Mãe de um filho de 15 anos, ela enfrentou diversos desafios, que a impulsionaram para a resiliência e superações; desde aceitação própria e baixa autoestima até lidar com luto (perda do esposo aos 36 anos, filho com um ano e 8 meses) obesidade, bloqueios em redes sociais, exposição pública, calote financeiros e dívidas.
