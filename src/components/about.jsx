@@ -41,16 +41,16 @@ export function About(){
                   <p className="text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">
                     Sou empreendedora por natureza, sempre buscando inovações e oportunidades para me reinventar. 
                     <br /><br />
-                    Minha formação em assistência social e MBA em gestão empresarial me deram uma base sólida para entender as necessidades das pessoas e criar estratégias eficazes para o sucesso.
+                    Minha formação em assistente social e MBA em gestão empresarial, comitamente sendi gestora de uma empresa de turismo com 25 anos, me deram uma base sólida para entender as necessidades das pessoas e criar estratégias eficazes para as superações e alcançar objetivos desejados.
                   </p>          
                 </div>
 
                 <div className="">
                   <img src={ImgPillars} alt="" className="mb-3 object-cover rounded-md mx-auto  md:max-w-[400px] lg:w-[360px] lg:float-right lg:ml-6 lg:mt-24"/>
                   <p className="text-gray-500 text-base pt-2 md:text-lg lg:max-w-[1000px]">
-                    Sou uma pessoa comunicativa, determinada e minha fé é um pilar fundamental em minha vida. Acredito em cuidar não apenas do corpo, mas também da mente, para que possamos enfrentar os desafios com força e equilíbrio. 
+                  Sou uma pessoa comunicativa, determinada e minha fé é um pilar fundamental em minha vida. Acredito que somos um ser trino: espírito, emoções (mente) e corpo. E temos a necessidade inerente de cuidar e desenvolver o  equílibrio entre os três para que possamos enfrentar os desafios com força e resiliência. 
                     <br /><br />
-                    Estou aqui para ajudá-la a descobrir seu potencial e guiá-la em sua jornada.
+                    Estou aqui para ajudá-la a descobrir seu potencial e guiá-la em sua jornada de superação.
                   </p>          
                 </div>
               </div>
@@ -85,7 +85,7 @@ export function About(){
                   <p className="text-gray-500 text-base md:text-lg lg:max-w-[1200px]">
                     Sou empreendedora por natureza, sempre buscando inovações e oportunidades para me reinventar. 
                     <br /><br />
-                    Minha formação em assistência social e MBA em gestão empresarial me deram uma base sólida para entender as necessidades das pessoas e criar estratégias eficazes para o sucesso.
+                    Minha formação em assistente social e MBA em gestão empresarial, comitamente sendi gestora de uma empresa de turismo com 25 anos, me deram uma base sólida para entender as necessidades das pessoas e criar estratégias eficazes para as superações e alcançar objetivos desejados.
                   </p>   
                   <img src={ImgQualification} alt="" className="mb-3 lg:ml-10 object-cover rounded-md mx-auto  md:max-w-[400px] lg:w-[360px] lg:float-right"/>       
                 </div>
@@ -93,9 +93,9 @@ export function About(){
                 <div className="lg:flex lg:flex-row lg:items-center lg:p-4 ">
                   <img src={ImgPillars} alt="" className="mb-3 lg:mr-10 object-cover rounded-md mx-auto  d:max-w-[400px] lg:mb-0 lg:w-[360px] lg:float-right"/>
                   <p className="text-gray-500 text-base pt-2  md:text-lg lg:max-w-[1200px]">
-                    Sou uma pessoa comunicativa, determinada e minha fé é um pilar fundamental em minha vida. Acredito em cuidar não apenas do corpo, mas também da mente, para que possamos enfrentar os desafios com força e equilíbrio. 
+                    Sou uma pessoa comunicativa, determinada e minha fé é um pilar fundamental em minha vida. Acredito que somos um ser trino: espírito, emoções (mente) e corpo. E temos a necessidade inerente de cuidar e desenvolver o  equílibrio entre os três para que possamos enfrentar os desafios com força e resiliência.
                     <br /><br />
-                    Estou aqui para ajudá-la a descobrir seu potencial e guiá-la em sua jornada.
+                    Estou aqui para ajudá-la a descobrir seu potencial e guiá-la em sua jornada de superação.
                   </p>          
                 </div>
               </div>
