@@ -15,7 +15,7 @@ export function Investiment(){
 
         <div className="space-y-8 lg:grid lg:grid-cols-2 lg:gap-x-4 lg: lg:space-y-0">
           <CardContainer 
-            title='E-book - Mulher de atitude (por Cátia Oliveira)'
+            title='E-book - Mulher de atitude (por Cátia Oliveira +'
             description='Embarque em uma jornada transformadora rumo à descoberta da verdadeira essência da mulher de atitude!'
             portion='6x'
             value='R$ 5,03'
@@ -24,20 +24,21 @@ export function Investiment(){
           />
 
           <CardContainer 
-            title='Combo Mulher em Superação (Sessão presencial + Ebook)'
-            description='Explore a jornada de autodescoberta e plenitude com o combo "Mulher plena". Este conjunto cuidadosamente elaborado oferece ferramentas essenciais para mulheres que buscam equilíbrio, autoconhecimento e uma vida plena.'
+            title='Combo Mulher em Superação (Sessão presencial + '
+            description='Explore a jornada de autodescoberta e plenitude com o combo "Mulher em Superação". Este conjunto cuidadosamente elaborado oferece ferramentas essenciais para mulheres que buscam equilíbrio, autoconhecimento e uma vida plena.'
             portion='12x'
             value='R$ 18,09'
-            inCash='R$ 177,00'
+            inCash='R$ 197,00'
+            highlight='* online ou presencial'
             link='https://sun.eduzz.com/2229519?cupom=PRESENTE2'
           />
 
           <CardContainer 
-            title='Combo Performance Feminina (Livro + Ebook)'
+            title='Combo Performance Feminina (Sessão + Livro Mulher em Performance + '
             description='Descubra o poder da transformação pessoal com o Combo "Performance Feminina". Este pacote exclusivo foi criado para mulheres que desejam iniciar uma jornada incrível em direção à sua melhor versão.'
             portion='12x'
             value='R$ 9,91'
-            inCash='R$ 97,00'
+            inCash='R$ 237,00'
             link='https://sun.eduzz.com/2198859?cupom=PRESENTE2'
           />                   
         </div>
